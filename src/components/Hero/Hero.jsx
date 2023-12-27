@@ -18,7 +18,7 @@ const Hero = () => {
             <span>Your</span>
           </div> 
           <div>
-            <span>Healthy Life</span>
+            <span>Life Healthy</span>
             </div>
           <div>
               <span>In here we will make sure to upgrade your
@@ -29,16 +29,16 @@ const Hero = () => {
         {/*Figures*/}
         <div className="figures">
           <div>
-             <span></span>
-             <span></span>
+             <span>90+</span>
+             <span>Expert trainers</span>
            </div>
           <div>
-             <span></span>
-             <span></span>
+             <span>500+</span>
+             <span>Customer engagements</span>
           </div>
           <div>
-             <span></span>
-             <span></span>
+             <span>35+</span>
+             <span>Special schedule</span>
           </div>
         </div>
         </div>
