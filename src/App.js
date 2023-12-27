@@ -1,5 +1,5 @@
 import './App.css';
-import Hero from './components/Hero_section/Hero';
+import Hero from './components/Hero/Hero';
 function App() {
   return (
     <div className="App">
