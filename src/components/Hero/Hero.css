@@ -34,7 +34,7 @@
 }
 .the-best-ad>div{
     position: absolute;
-    background-color: var(--orange);
+    background-color: var(--gold);
     width: 5.4rem;
     height: 80%;
     left: 8px;
@@ -89,7 +89,7 @@
 
 .hero-buttons>:nth-child(1){
     color: white;
-    background-color: var(--orange);
+    background-color: var(--gold);
     width: 8rem;
 }
 
@@ -97,7 +97,7 @@
     color: white;
     background-color:transparent;
     width: 8rem;
-    border: 2px solid var(--orange);
+    border: 2px solid var(--gold);
 }
 
 
