@@ -7,7 +7,7 @@ const Hero = () => {
         <div className="left-h">
          <Header/>
         </div>
-        <div className="right-h"></div>
+        <div className="right-h">right hand</div>
     </div>
   )
 }
