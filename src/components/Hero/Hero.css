@@ -104,7 +104,7 @@
 
 .right-h>.btn{
     position: absolute;
-    right: 3rem;top: 2rem;color: black;
+    right: 5rem;top: 2rem;color: black;
 }
 .heart-rate{
     display: flex;
@@ -123,6 +123,7 @@
 
 .heart-rate>img{
     width: 2rem;
+    padding-left: 1.2rem;
 }
 
 .heart-rate>:nth-child(2){
@@ -130,6 +131,50 @@
 }
 
 .heart-rate>:nth-child(3){
+    color: white;
+    font-size: 1.5rem;
+}
+
+.hero-image{
+    position: absolute;
+    top: 10rem;
+    right: 8rem;
+    width: 23rem;
+}
+
+.hero-image-back{
+    position: absolute;
+    top: 4rem;
+    right: 20rem;
+    z-index: -1;
+    width: 15rem;
+}
+
+.calories{
+    display: flex;
+    gap: 2rem;
+    background-color: var(--caloryCard);
+    border-radius: 3.5px;
+    width: fit-content;
+    position: absolute;
+    top: 33.3rem;
+    right: 27rem;
+}
+
+.calories>img{
+    width: 3.7rem;
+}
+
+.calories>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.calories>div>:nth-child(1){
+    color: var(--gray);
+}
+.calories>div>:nth-child(2){
     color: white;
     font-size: 1.5rem;
 }
