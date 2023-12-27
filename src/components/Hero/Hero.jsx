@@ -41,6 +41,11 @@ const Hero = () => {
              <span>Special schedule</span>
           </div>
         </div>
+        {/*hero buttons*/}
+        <div className="hero-buttons">
+           <button className="btn">Let's Begin</button>
+           <button className="btn">See More</button>
+        </div>
         </div>
         <div className="right-h">right hand</div>
     </div>
