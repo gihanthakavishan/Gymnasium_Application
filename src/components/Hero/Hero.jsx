@@ -14,12 +14,32 @@ const Hero = () => {
 {/*hero heading */}
         <div className="hero-text">
           <div>
-            <span>Shape Up </span>
+            <span className='stroke-text'>Shape Up </span>
             <span>Your</span>
           </div> 
           <div>
             <span>Healthy Life</span>
             </div>
+          <div>
+              <span>In here we will make sure to upgrade your
+                physiacl health and level up your life all the way</span>
+            </div>
+        </div>
+
+        {/*Figures*/}
+        <div className="figures">
+          <div>
+             <span></span>
+             <span></span>
+           </div>
+          <div>
+             <span></span>
+             <span></span>
+          </div>
+          <div>
+             <span></span>
+             <span></span>
+          </div>
         </div>
         </div>
         <div className="right-h">right hand</div>
