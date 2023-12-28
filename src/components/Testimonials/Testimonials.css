@@ -15,6 +15,7 @@
 .right-t>:nth-child(1){
     color: rgb(209, 179, 10);
     font-weight: bold;
+    text-align: center;
 }
 
 .right-t>:nth-child(2),
@@ -33,4 +34,32 @@
 .left-t{
     flex: 1;
     position: relative;
+}
+
+.left-t>img{
+    position: absolute;
+    width: 17rem;
+    height: 20rem;
+    object-fit: cover;
+    left:8rem;
+    top: 2rem;
+}
+
+.left-t>:nth-child(1){
+    position: absolute;
+    width: 17rem;
+    height: 20rem;
+    border: 2px solid rgb(164, 236, 29);
+    background-color: transparent;
+    left: 9rem;
+    top: 0.9rem;
+}
+
+.left-t>:nth-child(2){
+    position: absolute;
+    width: 17rem;
+    height: 19rem;
+    left: 7rem;
+    top: 4rem;
+    background: var(--planCard);
 }

@@ -11,12 +11,14 @@ const Testimonials = () => {
   return (
     <div className="Testimonials">
         <div className="left-t">
-         <img src={testimonialsData[selected].image} alt="" />
-
+          <div></div>
+          <div></div>
+            <img src={testimonialsData[selected].image} alt="" />
           <div className="arrows">
             <img src={leftArrow} alt="" />
             <img src={rightArrow} alt="" />
           </div>
+          
         </div>
         <div className="right-t">
             <span>Testimonials</span>

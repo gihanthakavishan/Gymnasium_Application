@@ -5,14 +5,13 @@ import image3 from "../assets/t-image3.jpg";
 export const testimonialsData = [
   {
     image: image1,
-    review:
-      "I made the right choice by choosing the Fittyclub and by choosing the right plan and program I already achieved my ideal body!",
+    review:"I made the right choice by choosing the Fittyclub and by choosing the right plan and program I already achieved my ideal body!",
     name: 'ROY VINCE',
     status : 'PROFESSIONAL CRICKETER'
   },
   {
     image: image2,
-    review: 'I have alrady trained more than 100 students since last year, lot of guys were able to shape up their body and level up their st',
+    review: 'I have alrady trained more than 100 students since last year, lot of guys were able to shape up their body and level up the fitness.',
     name: 'LIZARD HENRY',
     status: 'COACH'
   },
