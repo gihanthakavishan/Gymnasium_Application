@@ -14,18 +14,18 @@
 
 .left-r>span{
     font-weight: bold;
-    color: var(--gold);
-    text-align: center;
+    color:rgb(155, 204, 40);
     padding-bottom: 1rem;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    padding-top: 1rem;
+    text-align: center;
+    font-style: italic;
 }
 
 .left-r>div{
     color: whitesmoke;
     font-size: 3rem;
-    font-weight: bold;
-    
-    
+    font-weight: bold;  
 }
 
 .details-l{
@@ -45,6 +45,16 @@
     width: 2rem;
     height: 2rem;
 }
+
+.partners{
+    display: flex;
+    gap: 2rem;
+}
+.partners>img{
+    width: 3rem;
+    padding-left: 5.5rem;
+}
+
 .right-r{
     flex:1 1;
     display: grid;

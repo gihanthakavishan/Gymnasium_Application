@@ -13,7 +13,7 @@ const Reasons = () => {
   return (
     <div className="Reasons" id="reasons">
         <div className="left-r">
-           <span>Some Reasons</span>
+           <span>Why Choose Us</span>
            <div>
             <span className="stroke-text">Our</span>
            <span> Specialities</span>
@@ -37,6 +37,20 @@ const Reasons = () => {
                   <span>RELIABLE MENTORS</span>
               </div>
            </div>
+           <span
+           style={{
+             color: "var(--gray)",
+             fontWeight: "normal",
+             fontStyle : "italic"
+           }}
+           >
+            OUR PARTNERS
+            </span>
+            <div className="partners">
+                <img src={nb} alt="" />
+                <img src={adidas} alt="" />
+                <img src={nike} alt="" />
+            </div>
         </div>
         <div className="right-r">
             <img src={image1} alt="" />
