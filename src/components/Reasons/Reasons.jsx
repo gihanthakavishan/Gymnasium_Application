@@ -13,7 +13,30 @@ const Reasons = () => {
   return (
     <div className="Reasons" id="reasons">
         <div className="left-r">
-           left
+           <span>Some Reasons</span>
+           <div>
+            <span className="stroke-text">Our</span>
+           <span> Specialities</span>
+           </div>
+
+           <div className='details-l'>
+              <div>
+                 <img src={tick} alt=""></img>
+                 <span>FREE PLANS FOR NEWBIES</span>
+              </div>
+              <div>
+                 <img src={tick} alt="" />
+                 <span>MORE THAN 100+ QUALIFIED COCHES</span>
+              </div>
+              <div>
+                  <img src={tick} alt="" />
+                  <span>SMART WORKOUTS AND SCHEDULE THAN HARD ONES</span>
+              </div>
+              <div>
+                  <img src={tick} alt="" />
+                  <span>RELIABLE MENTORS</span>
+              </div>
+           </div>
         </div>
         <div className="right-r">
             <img src={image1} alt="" />
