@@ -12,9 +12,17 @@ import tick from "../../assets/tick.png";
 const Reasons = () => {
   return (
     <div className="Reasons" id="reasons">
-
+        <div className="left-r">
+           left
+        </div>
+        <div className="right-r">
+            <img src={image1} alt="" />
+            <img src={image2} alt="" />
+            <img src={image3} alt="" />
+            <img src={image4} alt="" />
+        </div>
     </div>
-  )
-}
+  );
+};
 
-export default Reasons
+export default Reasons;
