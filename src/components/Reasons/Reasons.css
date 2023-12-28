@@ -74,7 +74,7 @@
 }
 
 .right-r>:nth-child(2){
-    width: auto;
+    width: 25rem;
     height: 16rem;
     grid-column: 2/4;
 }
