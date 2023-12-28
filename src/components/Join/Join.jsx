@@ -3,7 +3,7 @@ import './Join.css';
 
 const Join = () => {
   return (
-    <div>Join</div>
+    <div className="Join"></div>
   )
 }
 
