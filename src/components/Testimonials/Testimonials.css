@@ -69,8 +69,8 @@
     display: flex;
     gap: 1rem;
     position: absolute;
-    bottom: -0.05rem;
-    left: 12rem;
+    bottom: 14rem;
+    left: 28rem;
 }
 
 .arrows>img{
