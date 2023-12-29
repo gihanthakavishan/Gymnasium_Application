@@ -11,3 +11,10 @@
     text-transform: uppercase;
     position: relative;
 }
+.left-j>hr{
+    position: absolute;
+    width: 10.5rem;
+    border: 2px solid var(--gold);
+    border-radius: 20%;
+    margin: -10px 0;
+}
