@@ -8,14 +8,19 @@ const Join = () => {
         <hr />
         <div>
            <span className='stroke-text'>READY TO</span>
-           <span> MASTER YOUR</span>
+           <span>MASTER YOUR</span>
         </div>
         <div>
           <span>FITNESS LEVEL</span>
-          <span className='stroke-text'> WITH US?</span>
+          <span className='stroke-text'>WITH US?</span>
         </div>
       </div>
-      <div className="right-j"></div>
+      <div className="right-j">
+         <form action="" className="contact-container">
+            <input type="email"  name='user-email' placeholder='Enter Your Emailaddress'/>
+            <button className='btn btn-j'>Join Now</button>
+         </form>
+      </div>
     </div>
   )
 }
