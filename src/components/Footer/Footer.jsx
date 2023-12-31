@@ -4,7 +4,7 @@ import Github from "../../assets/github.png";
 import Instagram from "../../assets/instagram.png";
 import LinkedIn from "../../assets/linkedin.png";
 import Facebook from "../../assets/facebook.png";
-import Youtube from "../../assets/youtube.jpg";
+import Youtube from "../../assets/youtube.png";
 
 const Footer = () => {
   return (
