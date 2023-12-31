@@ -5,17 +5,28 @@
     border: 1px solid var(--lightgray);
 }
 
-.social-links{
+.footer{
     padding: 1 rem 2 rem;
     display: flex;
-    flex-direction:row;
-    gap: 2.5rem;
+    flex-direction:column;
+    gap: rem;
     align-items: center;
     justify-content: center;
     height: 20rem;
 }
+.social-links{
+    display: flex;
+    gap: 4rem;
+}
+
 .social-links>img{
     width: 2rem;
     height: 2rem;
     cursor: pointer;
+}
+.copy-rights{
+    padding-top: 2rem;
+    font-style: italic;
+    color: var(--lightgray);
+    text-transform: uppercase;
 }

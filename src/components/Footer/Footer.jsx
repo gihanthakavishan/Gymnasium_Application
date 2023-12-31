@@ -11,13 +11,18 @@ const Footer = () => {
     
     <div className="Footer-container">
         <hr />
-        <div className="social-links">
+      <div className="footer">
+       <div className="social-links">
         <img src={Github} alt="" />
         <img src={Instagram} alt="" />
         <img src={LinkedIn} alt="" />
         <img src={Facebook} alt="" />
         <img src={Youtube} alt="" />
-        </div>
+       </div>
+       <div className="copy-rights">
+         <h2>@All The CopyRights Are Reseved</h2>
+       </div>
+     </div>
     </div>
   )
 }
