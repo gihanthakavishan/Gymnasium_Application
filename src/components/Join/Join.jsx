@@ -6,13 +6,14 @@ const Join = () => {
    const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_sdy2jno', 'template_grwm343', form.current, 'FEjRiLT53ucrrYb36')
+    emailjs.sendForm('service_b7qfh56', 'template_myhllvk', form.current, 'FEjRiLT53ucrrYb36')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
           console.log(error.text);
       });
   };
+
   return (
     <div className="Join" id="join-us">
       <div className="left-j">
@@ -27,7 +28,7 @@ const Join = () => {
         </div>
       </div>
       <div className="right-j">
-         <form action="" className="contact-container" onSubmit={sendEmail}>
+         <form ref={form} className="contact-container" onSubmit={sendEmail}>
             <input type="email"  name='user-email' placeholder='Enter Your Email Address'/>
             <button className='btn btn-j'>Join Now</button>
          </form>
