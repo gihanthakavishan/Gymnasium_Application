@@ -23,6 +23,9 @@ const Footer = () => {
          <h2>@All The CopyRights Are Reseved</h2>
        </div>
      </div>
+
+     <div className="blur blur-f-1"></div>
+     <div className="blur blur-f-2"></div>
     </div>
   )
 }

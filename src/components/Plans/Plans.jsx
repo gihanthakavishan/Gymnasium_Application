@@ -6,6 +6,8 @@ import './Plans.css';
 const Plans = () => {
   return (
 <div className="plans-container">
+    <div className="blur plans-blur-1"></div>
+    
     <div className="programs-header" style={{gap:'3.5rem'}}>
         <span>LET'S GET</span>
         <span className='stroke-text'>STARTED</span>
