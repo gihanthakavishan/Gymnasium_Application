@@ -48,3 +48,14 @@
     filter: blur(200px);
     background: rgb(169, 179, 83);
 }
+
+@media screen and (max-width:768px) 
+{
+    .social-links{
+        gap: 1.2rem;
+    }
+    .footer{
+        font-size: medium;
+        text-align: center;
+    }
+}
