@@ -22,7 +22,13 @@ const transition = {type: "spring", duration: 3};
              transition={{...transition, duration: 2}}
              whileInView={{opacity:1, x:0}}
           ></motion.div>
-            <img src={testimonialsData[selected].image} alt="" />
+            <motion.img
+             key={selected}
+             initial={{opacity:0, x: 100}}
+             animate={{opacity:1, x:0}}
+             exit={{opacity:0, x:-100}}
+             transition={transition}
+            src={testimonialsData[selected].image} alt="" />
           <div className="arrows">
             <img 
               onClick={()=> {
@@ -45,15 +51,25 @@ const transition = {type: "spring", duration: 3};
             <span>Testimonials</span>
             <span>What they</span>
             <span className='stroke-text'>Say about us</span>
-            <span>
-                {testimonialsData[selected].review}
-            </span>
-            <span>
-                <span style={{color:'lightgreen'}}>
+            <motion.span
+              key={selected}
+              initial={{opacity:0, x:100}}
+              animate={{opacity:1, x:0}}
+              exit={{opacity:0, x:-100}}
+              transition={transition}
+            >{testimonialsData[selected].review}
+            </motion.span>
+            <motion.span
+               key={selected}
+               initial={{opacity:0, x:100}}
+               animate={{opacity:1, x:0}}
+               exit={{opacity:0, x:-100}}
+               transition={transition}
+               ><span style={{color:'lightgreen'}}>
                     {testimonialsData[selected].name}
                 </span>{" "}
                  - {testimonialsData[selected].status}
-            </span>
+            </motion.span>
         </div>
     </div>
   )
