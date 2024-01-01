@@ -73,3 +73,14 @@
 .plans>:nth-child(3)>button{
     color: rgb(117, 185, 15);
 }
+
+@media screen and (max-width: 768px) 
+{
+    .plans{
+        flex-direction: column;
+    }
+     
+    .plans>:nth-child(3){
+         transform: none;
+    }
+}

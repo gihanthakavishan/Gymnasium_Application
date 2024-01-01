@@ -4,11 +4,12 @@ import whiteTick from '../../assets/whiteTick.png';
 import './Plans.css';
 
 const Plans = () => {
+    const mobile = window.innerWidth<=768 ? true : false;
   return (
 <div className="plans-container">
     <div className="blur plans-blur-1"></div>
     
-    <div className="programs-header" style={{gap:'3.5rem'}}>
+    <div className="programs-header" style={{gap: mobile?"2rem" :'3.5rem'}}>
         <span>LET'S GET</span>
         <span className='stroke-text'>STARTED</span>
         <span>WITHUS</span>
