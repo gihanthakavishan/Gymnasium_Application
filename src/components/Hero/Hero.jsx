@@ -79,13 +79,17 @@ const Hero = () => {
            <img src={hero_image_back} alt="" className="hero-image-back" />
 
            {/*calories*/}
-           <div className="calories">
+           <motion.div 
+           initial={{right: "32rem"}}
+           whileInView={{right:"28rem"}}
+           transition={transition}
+           className="calories">
             <img src={Calories} alt="" />
             <div>
                <span>Calories Burned</span>
                <span>365kcal</span>
             </div>
-           </div>
+           </motion.div>
         </div>
     </div>
   )
