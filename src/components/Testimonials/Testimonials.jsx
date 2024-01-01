@@ -51,25 +51,20 @@ const transition = {type: "spring", duration: 3};
             <span>Testimonials</span>
             <span>What they</span>
             <span className='stroke-text'>Say about us</span>
-            <motion.span
+          <motion.span
               key={selected}
               initial={{opacity:0, x:100}}
               animate={{opacity:1, x:0}}
               exit={{opacity:0, x:-100}}
               transition={transition}
             >{testimonialsData[selected].review}
-            </motion.span>
-            <motion.span
-               key={selected}
-               initial={{opacity:0, x:100}}
-               animate={{opacity:1, x:0}}
-               exit={{opacity:0, x:-100}}
-               transition={transition}
-               ><span style={{color:'lightgreen'}}>
+          </motion.span>
+            <span>
+              <span style={{color:'lightgreen'}}>
                     {testimonialsData[selected].name}
-                </span>{" "}
+              </span>{" "}
                  - {testimonialsData[selected].status}
-            </motion.span>
+            </span>
         </div>
     </div>
   )
