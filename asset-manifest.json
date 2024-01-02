@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Gymnasium_Application/static/css/main.cc67097c.css",
+    "main.js": "/Gymnasium_Application/static/js/main.59ca802e.js",
+    "static/media/hero_image.png": "/Gymnasium_Application/static/media/hero_image.e19ac0c6b1009c7280f5.png",
+    "static/media/image5.jpg": "/Gymnasium_Application/static/media/image5.bb1bf286b5f4f658befe.jpg",
+    "static/media/image1.jpg": "/Gymnasium_Application/static/media/image1.40e1141105a5735661e3.jpg",
+    "static/media/image2.jpg": "/Gymnasium_Application/static/media/image2.19d8965e7b74762a351d.jpg",
+    "static/media/image3.png": "/Gymnasium_Application/static/media/image3.69484cb0ee7687a8c28b.png",
+    "static/media/image4.png": "/Gymnasium_Application/static/media/image4.2c0d30b9ce1579eb1109.png",
+    "static/media/image6.jpeg": "/Gymnasium_Application/static/media/image6.e4e8455ede5121e1a91a.jpeg",
+    "static/media/image4.jpg": "/Gymnasium_Application/static/media/image4.3ab881995fe945c61164.jpg",
+    "static/media/facebook.png": "/Gymnasium_Application/static/media/facebook.b6a5dbd684efd5b908a3.png",
+    "static/media/hero_image_back.png": "/Gymnasium_Application/static/media/hero_image_back.9f54bfba33048f4ca688.png",
+    "static/media/youtube.png": "/Gymnasium_Application/static/media/youtube.381607fcf1726929a863.png",
+    "index.html": "/Gymnasium_Application/index.html",
+    "main.cc67097c.css.map": "/Gymnasium_Application/static/css/main.cc67097c.css.map",
+    "main.59ca802e.js.map": "/Gymnasium_Application/static/js/main.59ca802e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cc67097c.css",
+    "static/js/main.59ca802e.js"
+  ]
+}
