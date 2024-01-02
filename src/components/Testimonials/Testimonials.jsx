@@ -10,7 +10,7 @@ const transition = {type: "spring", duration: 3};
     const [selected, setSelected] = useState(0);
     const tLength = testimonialsData.length;
   return (
-    <div className="Testimonials">
+    <div className="Testimonials" id='testimonials'>
         <div className="left-t">
           <motion.div
             initial={{opacity: 0, x: -100}}
